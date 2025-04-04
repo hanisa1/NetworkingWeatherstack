@@ -12,8 +12,8 @@ class NetworkManager {
     
     private init() {}
     
-    func fetchWeather() async throws -> CityWeather {
-        let endpoint = "https://api.weatherstack.com/current?access_key=95f6f8972a3d3f99d46eed20398b3818&query=New York"
+    func getCityWeather(city: String) async throws -> WeatherData {
+        let endpoint = "https://api.weatherstack.com/current?access_key=95f6f8972a3d3f99d46eed20398b3818&query=\(city)"
         guard let url = URL(string: endpoint) else {
             throw WSError.invalidURL
         }
@@ -25,7 +25,8 @@ class NetworkManager {
         do {
             let decoder = JSONDecoder()
             decoder.keyDecodingStrategy = .convertFromSnakeCase
-            return try decoder.decode(CityWeather.self, from: data)
+            return try decoder.decode(WeatherData.self, from: data)
+            
         } catch {
             throw WSError.invalidData
         }
@@ -33,9 +34,29 @@ class NetworkManager {
     
 }
 
-struct CityWeather: Codable {
+struct WeatherData: Codable {
+    let location: Location
+    let current: CurrentWeather
+}
+
+// MARK: - Location
+struct Location: Codable {
     let name: String
+}
+
+// MARK: - CurrentWeather
+struct CurrentWeather: Codable {
     let temperature: Int
+    let astro: Astro
+
+    enum CodingKeys: String, CodingKey {
+        case temperature
+        case astro
+    }
+}
+
+// MARK: - Astro
+struct Astro: Codable {
     let sunrise: String
 }
 
