@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		73BF85182D96469C008166C5 /* NetworkingWeatherstackAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingWeatherstackAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73BF85322D96BFAD008166C5 /* NetworkingWeatherstackAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingWeatherstackAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		73BF85442D96BFB0008166C5 /* Exceptions for "NetworkingWeatherstackAPI" folder in "NetworkingWeatherstackAPI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 73BF85312D96BFAD008166C5 /* NetworkingWeatherstackAPI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		73BF851A2D96469C008166C5 /* NetworkingWeatherstackAPI */ = {
+		73BF85342D96BFAD008166C5 /* NetworkingWeatherstackAPI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				73BF85442D96BFB0008166C5 /* Exceptions for "NetworkingWeatherstackAPI" folder in "NetworkingWeatherstackAPI" target */,
+			);
 			path = NetworkingWeatherstackAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		73BF85152D96469C008166C5 /* Frameworks */ = {
+		73BF852F2D96BFAD008166C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		73BF850F2D96469C008166C5 = {
+		73BF85292D96BFAD008166C5 = {
 			isa = PBXGroup;
 			children = (
-				73BF851A2D96469C008166C5 /* NetworkingWeatherstackAPI */,
-				73BF85192D96469C008166C5 /* Products */,
+				73BF85342D96BFAD008166C5 /* NetworkingWeatherstackAPI */,
+				73BF85332D96BFAD008166C5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		73BF85192D96469C008166C5 /* Products */ = {
+		73BF85332D96BFAD008166C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				73BF85182D96469C008166C5 /* NetworkingWeatherstackAPI.app */,
+				73BF85322D96BFAD008166C5 /* NetworkingWeatherstackAPI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		73BF85172D96469C008166C5 /* NetworkingWeatherstackAPI */ = {
+		73BF85312D96BFAD008166C5 /* NetworkingWeatherstackAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73BF85262D96469E008166C5 /* Build configuration list for PBXNativeTarget "NetworkingWeatherstackAPI" */;
+			buildConfigurationList = 73BF85452D96BFB0008166C5 /* Build configuration list for PBXNativeTarget "NetworkingWeatherstackAPI" */;
 			buildPhases = (
-				73BF85142D96469C008166C5 /* Sources */,
-				73BF85152D96469C008166C5 /* Frameworks */,
-				73BF85162D96469C008166C5 /* Resources */,
+				73BF852E2D96BFAD008166C5 /* Sources */,
+				73BF852F2D96BFAD008166C5 /* Frameworks */,
+				73BF85302D96BFAD008166C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				73BF851A2D96469C008166C5 /* NetworkingWeatherstackAPI */,
+				73BF85342D96BFAD008166C5 /* NetworkingWeatherstackAPI */,
 			);
 			name = NetworkingWeatherstackAPI;
 			packageProductDependencies = (
 			);
 			productName = NetworkingWeatherstackAPI;
-			productReference = 73BF85182D96469C008166C5 /* NetworkingWeatherstackAPI.app */;
+			productReference = 73BF85322D96BFAD008166C5 /* NetworkingWeatherstackAPI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		73BF85102D96469C008166C5 /* Project object */ = {
+		73BF852A2D96BFAD008166C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					73BF85172D96469C008166C5 = {
+					73BF85312D96BFAD008166C5 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 73BF85132D96469C008166C5 /* Build configuration list for PBXProject "NetworkingWeatherstackAPI" */;
+			buildConfigurationList = 73BF852D2D96BFAD008166C5 /* Build configuration list for PBXProject "NetworkingWeatherstackAPI" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 73BF850F2D96469C008166C5;
+			mainGroup = 73BF85292D96BFAD008166C5;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 73BF85192D96469C008166C5 /* Products */;
+			productRefGroup = 73BF85332D96BFAD008166C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				73BF85172D96469C008166C5 /* NetworkingWeatherstackAPI */,
+				73BF85312D96BFAD008166C5 /* NetworkingWeatherstackAPI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		73BF85162D96469C008166C5 /* Resources */ = {
+		73BF85302D96BFAD008166C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		73BF85142D96469C008166C5 /* Sources */ = {
+		73BF852E2D96BFAD008166C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +138,63 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		73BF85242D96469E008166C5 /* Debug */ = {
+		73BF85462D96BFB0008166C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKKLXJD89Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetworkingWeatherstackAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.HanisaHilole.NetworkingWeatherstackAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73BF85472D96BFB0008166C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKKLXJD89Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetworkingWeatherstackAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.HanisaHilole.NetworkingWeatherstackAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73BF85482D96BFB0008166C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +257,7 @@
 			};
 			name = Debug;
 		};
-		73BF85252D96469E008166C5 /* Release */ = {
+		73BF85492D96BFB0008166C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,86 +313,28 @@
 			};
 			name = Release;
 		};
-		73BF85272D96469E008166C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NetworkingWeatherstackAPI/Preview Content\"";
-				DEVELOPMENT_TEAM = JKKLXJD89Q;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.HanisaHilole.NetworkingWeatherstackAPI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		73BF85282D96469E008166C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NetworkingWeatherstackAPI/Preview Content\"";
-				DEVELOPMENT_TEAM = JKKLXJD89Q;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.HanisaHilole.NetworkingWeatherstackAPI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		73BF85132D96469C008166C5 /* Build configuration list for PBXProject "NetworkingWeatherstackAPI" */ = {
+		73BF852D2D96BFAD008166C5 /* Build configuration list for PBXProject "NetworkingWeatherstackAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73BF85242D96469E008166C5 /* Debug */,
-				73BF85252D96469E008166C5 /* Release */,
+				73BF85482D96BFB0008166C5 /* Debug */,
+				73BF85492D96BFB0008166C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73BF85262D96469E008166C5 /* Build configuration list for PBXNativeTarget "NetworkingWeatherstackAPI" */ = {
+		73BF85452D96BFB0008166C5 /* Build configuration list for PBXNativeTarget "NetworkingWeatherstackAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73BF85272D96469E008166C5 /* Debug */,
-				73BF85282D96469E008166C5 /* Release */,
+				73BF85462D96BFB0008166C5 /* Debug */,
+				73BF85472D96BFB0008166C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 73BF85102D96469C008166C5 /* Project object */;
+	rootObject = 73BF852A2D96BFAD008166C5 /* Project object */;
 }
