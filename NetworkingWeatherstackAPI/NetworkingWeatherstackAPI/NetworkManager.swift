@@ -12,8 +12,11 @@ class NetworkManager {
     
     private init() {}
     
+    let apiKey: String = Bundle.main.object(forInfoDictionaryKey: "API_KEY") as! String
+
+    
     func getCityWeather(city: String) async throws -> WeatherData {
-        let endpoint = "https://api.weatherstack.com/current?access_key=95f6f8972a3d3f99d46eed20398b3818&query=\(city)"
+        let endpoint = "https://api.weatherstack.com/current?access_key=\(apiKey)&query=\(city)"
         guard let url = URL(string: endpoint) else {
             throw WSError.invalidURL
         }
