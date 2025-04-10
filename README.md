@@ -39,52 +39,16 @@ Then open `NetworkingWeatherstack.xcodeproj` in Xcode.
    let weatherstackAPIKey = "YOUR_API_KEY_HERE"
    ```
 
-## 📲 Usage
-
-1. Build and run the project in Xcode.  
-2. Enter the name of a city or location.  
-3. Tap the **Get Weather** button to fetch and display the current weather.
-
-## 📁 Project Structure
-
-```
-NetworkingWeatherstackAPI/
-├── Models/         # Data structures for parsing JSON
-├── Views/          # UI components
-├── Controllers/    # Networking and logic
-Resources/          # Assets and configurations
-```
 
 ## 📦 Dependencies
 
 This project uses Swift’s native `URLSession` for networking. No external libraries are required.
 
-## 🤝 Contributing
-
-Contributions are welcome! To get started:
-
-```bash
-# Fork the repository
-# Create a new branch
-git checkout -b feature/YourFeatureName
-
-# Commit your changes
-git commit -m "Add some feature"
-
-# Push to your branch
-git push origin feature/YourFeatureName
-```
-
-Then open a pull request with a clear description of your changes.
 
 ## 📄 License
 
 This project is licensed under the [MIT License](https://github.com/hanisa1/NetworkingWeatherstack/blob/main/LICENSE).
 
-## 🙌 Acknowledgments
-
-- [Weatherstack](https://weatherstack.com/) for providing a robust and easy-to-use weather API  
-- The Swift community for continuous learning and inspiration
 
 > **Note**: Always keep your API keys safe. Avoid committing them directly to public repositories.
 
