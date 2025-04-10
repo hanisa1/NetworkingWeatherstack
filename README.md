@@ -1,4 +1,4 @@
-# Networking With Weatherstack API ⏳⚡️
+# Networking With Weatherstack API ⏳
 Networking with the Weatherstack API with (Async/ Await)
 
 ## Overview
