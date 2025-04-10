@@ -33,7 +33,7 @@ Then open `NetworkingWeatherstack.xcodeproj` in Xcode.
    Sign up at [Weatherstack](https://weatherstack.com/) to get a free API key.
 
 2. **Configure the API Key**  
-   In the project, locate the `Constants.swift` file. Replace the placeholder with your actual API key:
+   In the project, locate the NetworkManager. Replace the API Key with your key:
 
    ```swift
    let weatherstackAPIKey = "YOUR_API_KEY_HERE"
